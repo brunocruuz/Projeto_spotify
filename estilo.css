@@ -1,0 +1,205 @@
+body {
+  background: url(projeto-inicial-spotify/imagens/capa.png),
+    url(projeto-inicial-spotify/imagens/ruido.png),
+    linear-gradient(85deg, rgb(247, 1, 1), rgb(22, 22, 212), rgb(180, 10, 38));
+  background-attachment: fixed;
+}
+
+header {
+  background: rgb(20, 3, 3, 0.5);
+}
+html, body {
+  overflow-x: hidden;
+}
+/* CAPA */
+.capa,
+html,
+body {
+  height: 100%;
+}
+.capa {
+  display: flex;
+}
+/* barra no navbar */
+.marcador {
+  color: white;
+
+  margin: 8px 10px;
+}
+/* NAVBAR COR */
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+}
+.navbar-dark .navbar-toggler {
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+}
+
+/* NOTICIAS MEIO */
+#home {
+  /*
+  
+  justify-content: center;
+ 
+  flex-wrap: wrap;
+ */
+  align-self: center;
+  align-items: center;
+}
+.hom1 {
+}
+.hom2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.h12 {
+  letter-spacing: -0.05em;
+  font-weight: 900;
+  text-align: center;
+  color: blanchedalmond;
+}
+.botao {
+  color: white;
+  border-radius: 500px;
+
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  text-transform: uppercase;
+
+  transition: background 0.5s, color 0.7s;
+
+  padding: 10px 20px;
+  margin: 10px;
+}
+.btn-roxo {
+  background: #7c25f8;
+}
+.btn-roxo:hover {
+  background: rgb(133, 21, 185);
+  color: white;
+}
+.btn-branco {
+  background: rgb(255, 255, 255, 0.2);
+  border: white 2px solid;
+}
+.btn-branco:hover {
+  background: white;
+  color: black;
+}
+
+/* MEDIA QUERES */
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575.98px) {
+  .fotinha  {
+    display: none;
+    }
+  .h12 {
+    font-size: 3em;
+  }
+  .botao {
+    padding: 2px;
+  }
+}
+
+/* texte media
+*/
+@media (max-width: 668px) {
+  .fotinha  {
+    display: none;
+    }
+  
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  
+  
+  .h12 {
+    font-size: 4em;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .h12 {
+    font-size: 5em;
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .h12 {
+    font-size: 6em;
+  }
+}
+/* *****  NOTICIAS   *****  */
+#servicos {
+  background: white;
+  padding: 0 20px;
+}
+.foto-f {
+  width: 100%;
+}
+/* ESTRUTURA DE CONTEUDO */
+h2 {
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: -0.04px;
+}
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: -0.04px;
+}
+#servicos h2,
+h3 {
+  color: #7c25f8;
+}
+/*  recursos */
+
+#recursos {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#recursos h3 {
+  color: #b593e4;
+}
+#recursos h2 {
+  color: rgb(153, 186, 229);
+}
+#recursos p {
+  color: white;
+  font-weight: bold;
+}
+
+.rotacionar{
+-ms-transform: rotate(30deg);
+-webkit-transform: rotate(30deg);
+transform: rotate(30deg);
+
+padding: 40px;
+}
+
+.fotinha{
+ 
+}
+/* footer */
+footer{
+  
+  background-color: black;
+  color: white;
+
+}
+footer {
+   padding-top: 30px;
+   position: relative;
+}
+footer ul{
+  list-style: none;
+  
+}
+footer h4{
+  color: rgba(231, 236, 241, 0.534);
+}
