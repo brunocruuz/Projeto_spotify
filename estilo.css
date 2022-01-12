@@ -157,6 +157,14 @@ h3 {
 h3 {
   color: #7c25f8;
 }
+/* carousel */ 
+.carousel-control-next, .carousel-control-prev {
+  margin: 10px;
+  width: 50px;
+  
+}
+
+
 /*  recursos */
 
 #recursos {

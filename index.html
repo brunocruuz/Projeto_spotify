@@ -20,7 +20,7 @@
 <body>
 
     <header class="  fixed-top">
-        <nav class="navbar navbar-expand-md navbar-dark  container ">
+        <nav class="navbar navbar-expand-lg navbar-dark  container ">
             <!-- Logo -->
             <a href="" class="navbar-brand"><img width="200px" src="projeto-inicial-spotify/imagens/spotify.svg"
                     alt=""></a>
@@ -58,14 +58,35 @@
     </header>
 
     <section class="capa">
-        <div class="container " id="home">
-            <div class="hom1 ">
-                <h1 class="h12 display-4"> MUSICA PARA TODOS</h1>
-                <div class="hom2">
-                    <a href="" class=" btn  btn-lg botao btn-roxo ">APROVEITE O SPOTYFY FREE</a>
-                    <a href="" class="btn   btn-lg botao btn-branco">obter spotify Premium</a>
-                </div>
-            </div>
+        <div class="container " id="home"> 
+            <div id="carousel-controles" class="carousel slide" data-ride="carousel">  <!-- carousel-->
+                <div class="carousel-inner"> <!-- INNER-->
+
+                    <div class="hom1 carousel-item active"> <!-- musica para todos -->
+                        <h1 class="h12 display-4"> Música para todos</h1>
+                        <div class="hom2">
+                            <a href="" class=" btn  btn-lg botao btn-roxo ">APROVEITE O SPOTYFY FREE</a>
+                            <a href="" class="btn   btn-lg botao btn-branco">obter spotify Premium</a>
+                        </div>
+                    </div>  <!-- musica para todos FIM -->
+                    <div class="carousel-item">
+                        <h1 class="h12 display-4"> As melhores rádios</h1> 
+                        <div class="hom2">
+                            <a href="" class="btn   btn-lg botao btn-branco">obter spotify Premium</a>
+                        </div>
+                      
+                    </div>
+
+                </div>  <!-- INNER-->
+                <a href="#carousel-controles " class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon">  </span>
+                </a>
+                <a href="#carousel-controles " class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon">  </span>
+                </a>
+               
+            </div> <!-- carousel-->
+          
         </div>
     </section>
 
